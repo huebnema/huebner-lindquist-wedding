@@ -1,4 +1,69 @@
-.header{
+h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #000;
+    opacity: 0.9;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+p {
+    font-family: 'Alice', sans-serif;
+}
+
+.header {
     padding-top: 52px;
     padding-bottom: 25px;
 }
+
+.menu-styles {
+    color: #000;
+    opacity: .5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    position: relative;
+}
+
+.menu {
+    display: inline-block;
+    padding: 0 15px;
+    position: relative;
+}
+
+.menu-centered ul::before,
+.menu-centered ul::after {
+    background: #ddd;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+.menu-centered :before {
+    right: 100%;
+}
+.menu-centered :after {
+    left: 100%;
+}
+
+.hero {
+    background: url("huebner-lindquist-wedding/img/hero.jpg");
+    background-size: cover;
+    height: 80vh;
+    margin-bottom: 3rem; }
+
+
