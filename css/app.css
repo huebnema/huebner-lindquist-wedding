@@ -60,10 +60,12 @@ p {
     left: 100%;
 }
 
+
+
 .hero {
-    background: url("huebner-lindquist-wedding/img/hero.jpg");
-    background-size: cover;
-    height: 80vh;
+    /*background-image: url(../img/hero.jpg);*/
+    background-size: 100px;
+    min-height: 100px;
     margin-bottom: 3rem; }
 
 
