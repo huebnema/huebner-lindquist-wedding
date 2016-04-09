@@ -51,8 +51,9 @@ hr {
 
 .top-bar {
     background-color: #000;
-    opacity: .6;
+    opacity: .7;
     color: white;
+    /*box-shadow: 0px 1px 1px #000;*/
 }
 
 .top-bar .menu {
@@ -75,8 +76,8 @@ hr {
 }
 
 .hero {
-    background-image: url(../img/hero1.jpg);
+    /*background-image: url(../img/hero1.jpg);*/
     margin-top: 0px;
     margin-bottom: 30px;
-    height: 500px;
+    height: 525px;
 }

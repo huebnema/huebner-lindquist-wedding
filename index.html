@@ -9,27 +9,57 @@
     <link href='https://fonts.googleapis.com/css?family=Volkorn|Unica One|Lato' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<div class="hero">
+<div class="hero" data-interchange="[img/small.jpg, small], [img/medium.jpg, medium], [img/large.jpg, large]">
 
     <div class="top-bar">
-        <div class="top-bar-left">
+        <div class="top-bar-title">
+    <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
+        <button class="menu-icon dark" type="button" data-toggle></button>
+    </span>
             <img src="img/weddinglogo.png">
         </div>
-        <div class="top-bar-right">
-            <ul class="menu">
-                <li><a href="#">OUR WEDDING</a></li>
-                <li><a href="#">THINGS TO DO</a></li>
-                <li><a href="#">GALLERY</a></li>
-                <li><a href="#">RSVP</a></li>
-            </ul>
+        <div id="responsive-menu">
+
+            <div class="top-bar-right">
+                <ul class="menu">
+                    <li><a href="#">OUR WEDDING</a></li>
+                    <li><a href="#">THINGS TO DO</a></li>
+                    <li><a href="#">GALLERY</a></li>
+                    <li><a href="#">RSVP</a></li>
+                </ul>
+                </ul>
+            </div>
         </div>
     </div>
 
+</div>
+
+    <!--<div class="top-bar">-->
+        <!--<div class="top-bar-title">-->
+            <!--<span data-responsive-toggle="responsive-menu" data-hide-for="medium">-->
+                <!--<button class="menu-icon dark" type="button" data-toggle></button>-->
+            <!--</span>-->
+            <!--<div class="top-bar-left">-->
+                <!--<img src="img/weddinglogo.png">-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div id="responsive-menu">-->
+            <!--<div class="top-bar-right">-->
+                <!--<ul class="menu">-->
+                    <!--<li><a href="#">OUR WEDDING</a></li>-->
+                    <!--<li><a href="#">THINGS TO DO</a></li>-->
+                    <!--<li><a href="#">GALLERY</a></li>-->
+                    <!--<li><a href="#">RSVP</a></li>-->
+                <!--</ul>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+
     <!--<ul class="menu">-->
-        <!--<li><a class="menu-styles" href="#">OUR WEDDING</a></li>-->
-        <!--<li><a class="menu-styles" href="#">THINGS TO DO</a></li>-->
-        <!--<li><a class="menu-styles" href="#">GALLERY</a></li>-->
-        <!--<li><a class="menu-styles" href="#">RSVP</a></li>-->
+    <!--<li><a class="menu-styles" href="#">OUR WEDDING</a></li>-->
+    <!--<li><a class="menu-styles" href="#">THINGS TO DO</a></li>-->
+    <!--<li><a class="menu-styles" href="#">GALLERY</a></li>-->
+    <!--<li><a class="menu-styles" href="#">RSVP</a></li>-->
     <!--</ul>-->
 
 </div>
