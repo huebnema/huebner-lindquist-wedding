@@ -28,6 +28,11 @@ p {
     opacity: 0.8;
 }
 
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .page-wrapper {
     max-width: 1000px;
 }
@@ -69,10 +74,10 @@ p {
     left: 100%;
 }
 
-.hero {
-    /*background-image: url(../img/hero.jpg);*/
-    margin-top: 25px;
-    margin-bottom: 30px; }
+/*.hero {*/
+    /*!*background-image: url(../img/hero.jpg);*!*/
+    /*margin-top: 25px;*/
+    /*margin-bottom: 30px; }*/
 
 .page-heading {
     margin-bottom: 30px;
