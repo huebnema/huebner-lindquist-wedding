@@ -43,39 +43,28 @@ hr {
     padding-bottom: 25px;
 }
 
-.menu-styles {
-    color: #000;
-    opacity: .5;
-    font-family: 'Raleway', sans-serif;
-    font-size: 14px;
-    display: inline-block;
-    position: relative;
-}
-
 .menu {
     display: inline-block;
     padding: 0 15px;
     position: relative;
 }
 
-.menu-centered ul::before,
-.menu-centered ul::after {
-    background: #ddd;
-    content: "";
-    display: block;
-    height: 1px;
-    position: absolute;
-    top: 50%;
-    width: 100%;
+.top-bar {
+    background-color: #000;
+    opacity: .6;
+    color: white;
 }
 
-.menu-centered :before {
-    right: 100%;
+.top-bar .menu {
+    background-color: inherit;
+    color: inherit;
 }
 
-.menu-centered :after {
-    left: 100%;
+.top-bar .menu li a {
+    background-color: inherit;
+    color: inherit;
 }
+
 
 .page-heading {
     margin-bottom: 30px;
