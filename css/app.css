@@ -5,22 +5,31 @@ h1 {
 }
 
 h2 {
-    font-family: 'Raleway', sans-serif;
-
+    font-family: 'Alice', sans-serif;
+    font-size: 32px;
+    margin-bottom: 0;
 }
 
 h3 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Alice', sans-serif;
+    font-size: 25px;
 
 }
 
 h4 {
-    font-family: 'Raleway', sans-serif;
-
+    font-family: 'Alice', sans-serif;
+    font-size: 20px;
 }
 
 p {
-    font-family: 'Alice', sans-serif;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 15px;
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.page-wrapper {
+    max-width: 1000px;
 }
 
 .header {
@@ -60,12 +69,15 @@ p {
     left: 100%;
 }
 
-
-
 .hero {
     /*background-image: url(../img/hero.jpg);*/
-    background-size: 100px;
-    min-height: 100px;
-    margin-bottom: 3rem; }
+    margin-top: 25px;
+    margin-bottom: 30px; }
 
+.page-heading {
+    margin-bottom: 30px;
+}
 
+.footer p {
+    size: 9px;
+}
