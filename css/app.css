@@ -67,17 +67,14 @@ hr {
     top: 50%;
     width: 100%;
 }
+
 .menu-centered :before {
     right: 100%;
 }
+
 .menu-centered :after {
     left: 100%;
 }
-
-/*.hero {*/
-    /*!*background-image: url(../img/hero.jpg);*!*/
-    /*margin-top: 25px;*/
-    /*margin-bottom: 30px; }*/
 
 .page-heading {
     margin-bottom: 30px;
@@ -85,4 +82,12 @@ hr {
 
 .footer p {
     size: 9px;
+}
+
+.hero {
+    background: url(../hero.jpg);
+    margin-top: 25px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 400px;
 }
