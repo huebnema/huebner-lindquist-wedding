@@ -2,6 +2,8 @@
 /* Author: Ian Lunn @IanLunn*/
 /* Author URL: http://ianlunn.co.uk/*/
 
+/*Source for the article on line-on-side headers: https://css-tricks.com/line-on-sides-headers/*/
+
 h1 {
     font-family: 'Lato', sans-serif;
     color: #000;
@@ -35,6 +37,7 @@ p {
 
 hr {
     margin: 50px 0;
+    border-bottom: 1px solid #CBCAC6;
 }
 
 .page-wrapper {
@@ -74,18 +77,14 @@ hr {
 
 
 .page-heading {
-    margin-bottom: 42px;
-}
-
-.footer p {
-    size: 9px;
+    margin-bottom: 40px;
 }
 
 .hero {
     /*background-image: url(../img/hero1.jpg);*/
     margin-top: 0px;
     margin-bottom: 0px;
-    height: 485px;
+    height: 480px;
 }
 
 button.primary {
@@ -97,12 +96,19 @@ button.primary {
 }
 
 .footer {
-    margin: 50px 0px 20px 0px;
-
+    margin: 55px 0 0 0;
+    padding: 10px 0px;
+    background: #000;
+    opacity: .3;
 }
 
-p.footer {
+.footer p {
     font-size: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-family: Lato, sans-serif;
+    opacity: 1;
+    color: #fff;
 }
 
 .content-block :last-child {
@@ -203,4 +209,50 @@ p.footer {
     /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
 
+/*.header ::before,*/
+/*.header ::after {*/
+    /*background: #000;*/
+    /*content: "";*/
+    /*display: block;*/
+    /*height: 1px;*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*width: 100%;*/
+/*}*/
+/*.header :before {*/
+    /*right: 100%;*/
+/*}*/
+/*.header :after {*/
+    /*left: 100%;*/
+/*}*/
 
+.title {
+    margin: 50px 0;
+}
+.fancy {
+    line-height: 1;
+    text-align: center;
+}
+.fancy span {
+    display: inline-block;
+    position: relative;
+}
+.fancy span:before,
+.fancy span:after {
+    content: "";
+    position: absolute;
+    background: #CBCAC6;
+    display: block;
+    height: 1px;
+    top: 24px;
+    width: 380px;
+    /*opacity: .7;*/
+}
+.fancy span:before {
+    right: 100%;
+    margin-right: 55px;
+}
+.fancy span:after {
+    left: 100%;
+    margin-left: 55px;
+}
