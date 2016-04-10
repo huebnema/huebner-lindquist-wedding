@@ -215,23 +215,6 @@ button.primary {
     /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
 
-/*.header ::before,*/
-/*.header ::after {*/
-    /*background: #000;*/
-    /*content: "";*/
-    /*display: block;*/
-    /*height: 1px;*/
-    /*position: absolute;*/
-    /*top: 50%;*/
-    /*width: 100%;*/
-/*}*/
-/*.header :before {*/
-    /*right: 100%;*/
-/*}*/
-/*.header :after {*/
-    /*left: 100%;*/
-/*}*/
-
 .title {
     margin: 50px 0;
 }
