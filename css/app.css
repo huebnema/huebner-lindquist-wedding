@@ -4,6 +4,8 @@
 
 /*Source for the article on line-on-side headers: https://css-tricks.com/line-on-sides-headers/*/
 
+/*Lines off the sides of header inspired by the www.weebly.com "Clean Lines" theme*/
+
 h1 {
     font-family: 'Lato', sans-serif;
     color: #000;
@@ -270,5 +272,38 @@ img.logo {
 }
 
 ul.menu {
-    padding-right: 3px
+    padding-right: 3px;
+}
+
+/*Flickity*/
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body { font-family: sans-serif; }
+
+.gallery {
+    background: #EEE;
+}
+
+.gallery img {
+    display: block;
+    height: 225px;
+}
+
+@media screen and ( min-width: 725px ) {
+    .gallery img {
+        height: 550px;
+    }
+}
+
+@media screen and (min-width: 650px) and (max-width: 975px) {
+    .gallery img {
+        height: 400px;
+    }}
+
+.gallery-wrapper {
+    margin-bottom: 65px;
 }
