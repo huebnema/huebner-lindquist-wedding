@@ -290,3 +290,8 @@ body { font-family: sans-serif; }
 .gallery-wrapper {
     margin-bottom: 65px;
 }
+
+.menu-icon.dark:after {
+    background: #fff;
+    box-shadow: 0 7px 0 #fff, 0 14px 0 #fff;
+}
