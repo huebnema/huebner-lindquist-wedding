@@ -217,7 +217,7 @@ button.primary {
     text-align: center;
 }
 .fancy span {
-    display: inline-block;
+    display: inline;
     position: relative;
 }
 .fancy span:before,
