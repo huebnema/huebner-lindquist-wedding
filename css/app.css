@@ -332,6 +332,7 @@ body { font-family: sans-serif; }
 .sticky-container {
     background-color: #000;
     opacity: .8;
+    z-index: 10;
 }
 
 
