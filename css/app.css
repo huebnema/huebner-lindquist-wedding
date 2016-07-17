@@ -43,7 +43,7 @@ hr {
 }
 
 a {
-    color: #454A5B;
+    color: #2A4C6E;
 }
 
 a:focus, a:hover {
@@ -84,7 +84,7 @@ a:active {
 }
 
 button.primary {
-    background-color: #454A5B;
+    background-color: #2A4C6E;
     padding: 15px 40px;
     margin: 15px 0 0 0;
     color: #fff;
@@ -112,7 +112,7 @@ button.primary {
 }
 
 .content-block ul li a {
-    color: #454A5B;
+    color: #2A4C6E;
 }
 
 .logo {
