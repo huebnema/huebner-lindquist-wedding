@@ -42,11 +42,15 @@ hr {
     border-bottom: 1px solid #CBCAC6;
 }
 
-.content-block li a:hover {
+a {
+    color: #454A5B;
+}
+
+a:focus, a:hover {
     color: #7A7E86;
 }
 
-.content-block li a:active {
+a:active {
     color: #323433;
 }
 
