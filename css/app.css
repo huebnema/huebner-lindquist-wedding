@@ -208,6 +208,8 @@ body { font-family: sans-serif; }
 
 .gallery-wrapper {
     margin-bottom: 65px;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 /*Change the color and styling of the hamburger icon*/
