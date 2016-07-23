@@ -80,8 +80,28 @@ a:active {
     /*background-image: url(../img/hero1.jpg);*/
     margin-top: 0;
     margin-bottom: 0;
-    height: 480px;
+    height: 500px;
 }
+
+/* XX-Large and up */
+@media screen and (min-width: 90em) {
+
+    div.hero {
+        height: 550px;
+    }
+
+}
+
+
+/*Retina*/
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+
+     div.hero {
+         height: 700px;
+     }
+
+ }
+
 
 button.primary {
     background-color: #2A4C6E;
